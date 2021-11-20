@@ -1,0 +1,285 @@
+.hello {
+    font-family: 'Carter One', cursive;
+    background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: -20px;
+
+    
+}
+
+p {
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    font-family:'Oswald', sans-serif;
+    margin-top: 0px;
+}
+
+body {
+    /* background-image: url("/images/vecteezy_blue-background-1_dy1220.jpg"); */
+    background-image: linear-gradient( 105.3deg,  rgba(30,39,107,1) 21.8%, rgba(77,118,221,1) 100.2% );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hh {
+  max-width:900px;
+  height: 700px;
+  margin: 0px auto;
+  text-align: center;
+  padding-top:30px;
+  display: flex;
+}
+
+.icons {
+  height: 300px;
+  width: 600px;
+  display: inline-flex;
+}
+
+.icons1 {
+  height: 350px;
+  width: 600px;
+  display:inline-flex;
+}
+
+img {
+  height: 150px;
+  weight:150px;
+}
+
+
+.button {
+    background-color: #04AA6D;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 00px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .button:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+
+  .button {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Green */
+  .button1 {
+    border-color: #04AA6D;
+    color: green;
+    font-size: 20px;
+    width:150px;
+    height:30px;
+    margin:30px 30px;
+    
+  }
+  
+  .button1:hover {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Blue */
+  .button2 {
+    border-color: #2196F3;
+    color: dodgerblue;
+    font-size: 20px;
+    width:150px;
+    height:30px;
+    margin: 30px 30px;
+  }
+  
+  .button2:hover {
+    background: #2196F3;
+    color: white;
+  }
+  
+  /* Orange */
+  .button3 {
+    border-color: #ff9800;
+    color: orange;
+    font-size: 20px;
+    width:150px;
+    height:30px;
+    margin: 30px 30px;
+  }
+  
+  .button3:hover {
+    background: #ff9800;
+    color: white;
+  }
+  
+  /* Red */
+  .button4 {
+    border-color: #f44336;
+    color: red;
+    font-size: 20px;
+    width:150px;
+    height:30px;
+    margin: 30px 30px;
+  }
+  
+  .button4:hover {
+    background: #f44336;
+    color: white;
+  }
+  
+  /* Gray */
+  .default {
+    border-color: #e7e7e7;
+    color: black;
+  }
+  
+  .default:hover {
+    background: #e7e7e7;
+  }
+
+  @media only screen and (max-width: 480px) {
+    .hello {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 15px;
+      line-height: 13px;
+    }
+
+    .hh {
+      max-width:500px;
+      height: 250px;
+      margin: 10px auto;
+      text-align: center;
+      padding-top:50px;
+    }
+    
+    .icons {
+      height: auto;
+      width: auto;
+      display:inline-block;
+    }
+    
+    .icons1 {
+      height: auto;
+      width: auto;
+      display:inline-block
+;
+    }
+
+
+    img {
+      height: 100px;
+      width: 100px;
+    }
+
+    .button1 {
+      border-color: #04AA6D;
+      color: green;
+      font-size: 15px;
+      width:100px;
+      height:25px;
+      margin:30px 30px;
+      
+    }
+    
+    .button1:hover {
+      background-color: #04AA6D;
+      color: white;
+    }
+    
+    /* Blue */
+    .button2 {
+      border-color: #2196F3;
+      color: dodgerblue;
+      font-size: 15px;
+      width:100px;
+      height:25px;
+      margin: 30px 30px;
+    }
+    
+    .button2:hover {
+      background: #2196F3;
+      color: white;
+    }
+    
+    /* Orange */
+    .button3 {
+      border-color: #ff9800;
+      color: orange;
+      font-size: 15px;
+      width:110px;
+      height:25px;
+      margin: 30px 30px;
+    }
+    
+    .button3:hover {
+      background: #ff9800;
+      color: white;
+    }
+    
+    /* Red */
+    .button4 {
+      border-color: #f44336;
+      color: red;
+      font-size: 15px;
+      width:100px;
+      height:25px;
+      margin: 30px 30px;
+    }
+    
+    .button4:hover {
+      background: #f44336;
+      color: white;
+    }
+    
+    /* Gray */
+    .default {
+      border-color: #e7e7e7;
+      color: black;
+    }
+    
+    .default:hover {
+      background: #e7e7e7;
+    }
+    }
+
+
+
